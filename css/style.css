@@ -145,7 +145,7 @@ button:hover, button:active, button:focus  {
 } 
 .rhomb-icon.transparent-icon:hover {
 	color: #fff;
-	background-color: #111
+	background-color: #111;
 }
 /* === RHOMB-ICON END === */
 /* === TITLE === */
@@ -342,15 +342,26 @@ textarea.form-control {
 .inner-content h1 span:first-letter {
 	text-transform: capitalize;
 }
-/* .inner .arrow-down {
+/* === ARROW-DOWN === */
+.inner .arrow-down {
 	position: absolute;
 	bottom: 40px;
 	left: 0;
 	right: 0;
 }
-.inner .arrow-down:hover {
-	transform: scale(1.1);
-} */
+.inner .arrow-down .rhomb-icon {
+	font-size: 15px;
+	width: 20px;
+	height: 20px;
+}
+.inner .arrow-down .rhomb-icon > * {
+	margin-left: 6px;
+}
+.inner .arrow-down .rhomb-icon:hover {
+	color: #fff;
+	background-color: #111;
+}
+/* === ARROW-DOWN END === */
 @media (max-width: 1199px) {
 	.inner-content span {
 		margin-top: 50px;
