@@ -811,8 +811,6 @@ textarea.form-control {
 }
 .subscribe .subscribe-form input {
 	max-width: 295px;
-	width: 100%;
-	/* margin-right: 5px; */
 }
 .subscribe .subscribe-form .btn {
 	margin-left: 5px;
@@ -821,7 +819,7 @@ textarea.form-control {
 	font-size: 12px;
 	color: #aaa;
 }
-.subscribe .require-info span {
+.require-info span {
 	font-size: 11px;
 	color: #aaa;
 }
@@ -888,10 +886,6 @@ textarea.form-control {
 .contact-us .form-submit .require-info {
 	line-height: 36px;
 	float: left;
-}
-.contact-us .form-submit .require-info span {
-	font-size: 11px;
-	color: #aaa;
 }
 .contact-us .form-submit {
 	margin-top: 20px;
