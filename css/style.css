@@ -834,8 +834,12 @@ textarea.form-control {
 }
 @media (max-width: 599px) {
 	.subscribe .subscribe-form .btn {
-		width: 100%;
 		margin-left: 0;	
+	}
+}
+@media (max-width: 479px) {
+	.subscribe .subscribe-form .btn {
+		width: 100%;
 	}
 }
 /* === SUBSCRIBE END === */
@@ -887,6 +891,9 @@ textarea.form-control {
 	line-height: 36px;
 	float: left;
 }
+.contact-us .form-submit .btn {
+	floar: right;
+}
 .contact-us .form-submit {
 	margin-top: 20px;
 }
@@ -922,10 +929,13 @@ textarea.form-control {
 	.contact-us .form-submit .require-info {
 		float: none;
 		line-height: 0;
+		display: block;
+		margin-bottom: 20px;
 	}
+}
+@media (max-width: 479px) {
 	.contact-us .form-submit .btn {
 		width: 100%;
-		margin-top: 20px;
 	}
 }
 /* === CONTACT-US END === */
