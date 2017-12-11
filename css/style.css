@@ -1008,6 +1008,14 @@ textarea.form-control {
 	color: #999;	
 	margin-top: 13px;	
 }
+@media (max-width: 767px) {
+	.footer {
+		padding: 80px 0 20px; 
+	}
+	.footer .social-nav {
+		margin: 28px 0 50px;
+	}
+}
 /* === FOOTER END === */
 
 /* === ARROW-UP === */
