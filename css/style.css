@@ -373,7 +373,7 @@ textarea.form-control {
 		text-indent: .7em;
 	}
 }
-@media (max-width:767px) {
+@media (max-width: 767px) {
 	.inner {
 		height: auto;
 		padding: 150px 10px;
@@ -828,8 +828,8 @@ textarea.form-control {
 }
 @media (max-width: 767px) {
 	.subscribe .subscribe-form input {
-    max-width: 100%;
-    margin-bottom: 10px;
+		max-width: 100%;
+		margin-bottom: 10px;
 	}
 }
 @media (max-width: 599px) {
@@ -892,7 +892,7 @@ textarea.form-control {
 	float: left;
 }
 .contact-us .form-submit .btn {
-	floar: right;
+	float: right;
 }
 .contact-us .form-submit {
 	margin-top: 20px;
@@ -916,7 +916,7 @@ textarea.form-control {
 		margin-top: 50px;
 	}
 	.contact-us .contact-form .form-col {
-    width: 100%;
+    		width: 100%;
 	}
 	.contact-us .contact-form textarea {
 		margin-top: 10px;
