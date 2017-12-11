@@ -932,6 +932,9 @@ textarea.form-control {
 		display: block;
 		margin-bottom: 20px;
 	}
+	.contact-us .form-submit .btn {
+		float: none;
+	}
 }
 @media (max-width: 479px) {
 	.contact-us .form-submit .btn {
