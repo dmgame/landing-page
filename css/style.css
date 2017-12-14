@@ -90,6 +90,9 @@ button:hover, button:active, button:focus  {
 .header .navbar-toggle .icon-bar {
 	background-color: #fff;
 }
+.header .collapse {
+	padding: 0;
+}
 .logo {
 	float: left;
 	line-height: 0;
@@ -356,6 +359,9 @@ textarea.form-control {
 }
 .inner .arrow-down .rhomb-icon > * {
 	margin-left: 6px;
+}
+.inner .rhomb-icon.white-icon {
+	color: #222;
 }
 .inner .arrow-down .rhomb-icon:hover {
 	color: #fff;
@@ -629,7 +635,7 @@ textarea.form-control {
 /* === START-PROJECT END === */
 
 /* === WHY-CHOOSE-US === */
-.why-choose-us .features .icon {
+.why-choose-us .features .features-icon {
 	font-size: 48px;
 	margin-bottom: 30px;
 }
@@ -744,8 +750,8 @@ textarea.form-control {
 }
 @media (max-width: 599px) {
 	.reviews .carousel p {
-		padding: 0 60px;
-		font-size: 16px;
+		padding: 0 40px;
+		font-size: 14px;
 	}
 }
 /* === REVIEWS END === */
@@ -1036,7 +1042,7 @@ textarea.form-control {
 	position: fixed;
 	right: 30px;
 	bottom: 30px;
-	font-size: 30px;
+	font-size: 40px;
 	color: #c6c6c6;
 	z-index: 999;
 }
